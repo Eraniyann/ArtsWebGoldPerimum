@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Gold Portfolio</title>
+    <link rel="stylesheet" href="adding.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">Your Name</h1>
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2 class="gold-text">Premium Art Collection</h2>
+        <p>Where minimal luxury meets modern art.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 class="gold-text">Gallery</h2>
+        <div class="grid">
+            <img src="yourimage1.jpg">
+            <img src="yourimage2.jpg">
+            <img src="yourimage3.jpg">
+            <img src="yourimage4.jpg">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="gold-text">About</h2>
+        <p>I create artwork that blends emotion with elegance.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="gold-text">Contact</h2>
+        <p>Email: yourmail@example.com</p>
+        <p>Instagram: @yourprofile</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name</p>
+    </footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("show");
+}
+</script>
+</body>
+</html>
